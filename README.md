@@ -24,5 +24,3 @@ Design a LBS based Android app for users to report events and search nearby even
 * Comment: create instance when making comments to a specific event with attributes like description, username, eventId, like, etc.
 * Utils: some helper method like encryption of password, calculation of distance between two locations, time transformation, etc.
 * LocationTracker: get permission from users to use Android system GPS or network to get current location.
-
-# Application Demo
