@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+
+    <!-- username tag-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:fontFamily="Roboto"
+        android:textColor="#FF3F89E7"
+        android:textSize="20sp"/>
+
+    <!-- username edit area-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="Roboto"
+        android:id="@+id/editTextLogin"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- password tag-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Roboto"
+        android:textSize="20sp"
+        android:textColor="#FF3F89E7"
+        android:text="Password:" />
+
+    <!-- password edit area-->
+    <EditText
+        android:fontFamily="Roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPassword"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- button to login-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:fontFamily="Roboto"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_buttons"
+        android:id="@+id/submit" />
+
+    <!-- button to register-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_buttons"
+        android:fontFamily="Roboto"
+        android:id="@+id/register" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>

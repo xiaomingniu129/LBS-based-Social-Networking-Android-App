@@ -1,0 +1,10 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ads_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.laioffer.eventreporter.EventFragment">
+
+</FrameLayout>
+
