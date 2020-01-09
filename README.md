@@ -1,14 +1,13 @@
 # LBS-based-Social-Networking-Android-App
-Design a LBS based Android app for users to report events and search nearby events.
+Developed an Android App for users to report events and search nearby events.
 
 # Description
 * Developed an Android App for users to report events and search nearby events.
-* Designed a view to report new event with title, description, image and location.
-* Designed a view to show details of the clicked event and make a comment or like to it.
+* Designed a view to report new events with title, description, image and location.
+* Designed a view to show the details of clicked event and make comments or a like to it.
 * Integrated Google Map API to track the current user’s location and display nearby hot events as well as navigating to the event.
-* Used Google Firebase to store and control UGC including comments, images, descriptions, title and geolocations.
+* Used Google Firebase to store and control UGC including titles, descriptions, images, comments and locations.
 * Implemented in-app advertising service (Google AdMob) to show Google advertisers and interact with users.
-
 
 # Activity and Fragment Design
 * MainActivity: for login and register.
